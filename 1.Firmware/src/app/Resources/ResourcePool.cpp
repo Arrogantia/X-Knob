@@ -61,6 +61,7 @@ do{\
 
         // HASS
         IMPORT_IMG(home);
+        IMPORT_IMG(home_MiLamp);
         IMPORT_IMG(home_fan);
         IMPORT_IMG(home_bulb);
         IMPORT_IMG(home_air_cond);

@@ -7,7 +7,7 @@
 #include "HassModel.h"
 #include <map>
 
-#define DEVICE_NUM 4
+#define DEVICE_NUM 5
 
 enum HASS_VIEW_MODE {
     VIEW_MODE_ON_OFF = 1,

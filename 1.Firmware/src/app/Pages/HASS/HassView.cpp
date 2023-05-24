@@ -290,6 +290,15 @@ void HassView::Create(lv_obj_t* root)
 	  false
     );
 
+	device_item_create(
+      &(m_ui->devices[4]),
+      cont_row,
+      "Xiaomi Lamp",
+      "home_MiLamp",
+	  false,
+	  false
+    );
+
     m_ui->foucs_label = lv_label_create(root);
 	lv_obj_add_style(m_ui->foucs_label, &style.label_name, 0);
     lv_label_set_text_fmt(m_ui->foucs_label, "%s", "NONE");
